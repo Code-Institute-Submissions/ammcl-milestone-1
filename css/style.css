@@ -17,7 +17,6 @@
     background-color: #e67e22;
 }
 
-
 /* Navbar */
 
 .navalert-container {
@@ -31,9 +30,9 @@
 
 .navbar {
     margin-bottom: 0;
-  
- 
-    
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
 }
 
 .navbar .navbar-toggler {
@@ -49,32 +48,29 @@
 }
 
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background: transparent;
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
+.jumbotron h1 {
     color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: green;
 }
 
-.navbar-btn {
-    border: 0;
-    border-radius: 16px;
-    width: 100px;
-    background-color: #f05f40;
-    color: white;
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
 }
 
-.navbar-btn:hover {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
-
 /* Buttons */
 
 .btn--cta {
@@ -110,6 +106,16 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
+.andrea {
+    background: url("../images/andrea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 .name {
     font-family: "Exo", sans-serif;
     font-weight: bold;

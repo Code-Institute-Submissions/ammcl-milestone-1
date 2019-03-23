@@ -1,0 +1,106 @@
+
+
+
+
+style.css file
+
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: blue;
+  /*  background: transparent; */
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+
+
+index . html
+
+ <nav class="navbar navbar-expand-sm bg-light">
+  <!-- Links -->
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" class="hvr-grow"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="artist.html" class="hvr-grow"><i class="fa fa-music" aria-hidden="true"></i><span> Artists</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html" class="hvr-grow"><i class="fa fa-comment-o" aria-hidden="true"></i><span> Enquries</span></a>
+      </li>
+    </ul>
+    <span class="navbar-text my-auto justify-content-right"><i>Subscribe to our Newsletter</i></a>
+                 <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+    </span>
+  </div>      
+</nav>
+     <header>
+        <div class="row no-gutters">
+            <a class="col-md-6 logo" href="index.html"></a>
+            <div class="col-md-6">
+                <div class="row no-gutters bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name"><mark>Classical Genres</mark></h1>
+                        </div>  
+                    </div>
+                </div>
+                
+            </div>
+            </header>
+        
+<! Signup form --->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
