@@ -58,7 +58,7 @@
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: green;
+ 
 }
 
 .jumbotron .lead {
@@ -106,8 +106,8 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
-.andrea {
-    background: url("../images/andrea.jpg");
+.andrea{
+    background: url("../images/ab.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +115,43 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+
+}
+
+.charlotte{
+    background: url("../images/charlotte.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.bond{
+    background: url("../images/bond.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.ildivo{
+    background: url("../images/ildivo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
 }
 .name {
     font-family: "Exo", sans-serif;
