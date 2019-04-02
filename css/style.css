@@ -29,6 +29,9 @@
     background-color:   #b3b6b7;
 }
 
+.bg-color-career-lyrics {
+    background-color:   #b22222;
+}
 /* Navbar */
 
 .navalert-container {
@@ -156,6 +159,17 @@
 
 .ildivo{
     background: url("../images/ildivo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+.bach{
+    background: url("../images/bach.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,11 +323,16 @@ header {
     color: #e67e22;
 }
 
+.lyric-pdf i:hover {
+    color: #e84610;
+}
+
 /*Footer Info*/
 
 #footer-details {
     padding: 50px;
     alignment-baseline: central;
+    text-align: center;
 }
 .social-links {
     padding-bottom: 15px;
