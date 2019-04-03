@@ -26,11 +26,10 @@ The navigation is functional and has two forms available, subscribe to a news le
 
 ### Deployment
 
-Website was coded in Cloud 9 IDE, a local GIT directory was used for version control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at:
-(to be updated)
+Website was coded in Cloud 9 IDE, a local GIT directory was used for version control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at: https://ammcl.github.io/milestone-1/
+
 ### Testing
 
 Each page was tested locally and on GITHUB pages using Chrome developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop. All links were tested. 
 
 ### Work based on other code
-to be update once assignment is completed.
