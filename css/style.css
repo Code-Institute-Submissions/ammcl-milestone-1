@@ -132,7 +132,6 @@
     -webkit-transition: all .5s ease-in-out;
 
 }
-
 .charlotte{
     background: url("../images/charlotte.jpg");
     background-position: center;
@@ -183,8 +182,17 @@ header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 50px;
+.card {
+    margin:0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    
 }
 
 .uppercase {
@@ -218,6 +226,7 @@ header {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    color: #fafafa;
 }
 
 .section-column {
@@ -227,10 +236,6 @@ header {
 }
 /* Career History */
 
-.career-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -276,7 +281,7 @@ header {
 
 /* Padding & Margins */
 
-.career-heading,
+
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -316,6 +321,21 @@ header {
     color: #e84610;
 }
 
+
+/* Audio Files */
+.audio-placeholder {
+    display: inline-block;
+    padding-bottom: 25px;
+    border: 5px solid #7BB665;
+    border-radius: 30px;
+}
+
+.audio-placeholder h5 {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
 /*Footer Info*/
 
 #footer-details {
