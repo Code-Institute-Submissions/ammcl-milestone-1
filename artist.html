@@ -96,10 +96,10 @@
                 <div class="card">
                     <img class="card-img-top" src="images/char2.jpg" alt="Charlotte Church">
                     <div class="card-body text-center">
-                     <h5 class="card-title">Charlotte Church</h5>
+                        <h5 class="card-title">Charlotte Church</h5>
                         <p> Career Started : 1997</p>
                         <p> Nationality : Welsh</p>
-                        <p> Genre's : Current Material: Pop, Indie Rock, Indie Pop, Alternative Rock.  Earlier Material: Classical, Classical Crossover, Operatic Pop, Celtic</p>
+                        <p> Genre's : Current Material: Pop, Indie Rock, Indie Pop, Alternative Rock. Earlier Material: Classical, Classical Crossover, Operatic Pop, Celtic</p>
                         <a href="charlotte.html" class="btn btn-primary">Career</a>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         <p> Date Formed : 2000</p>
                         <p> Group Members : Tania Davis, Eos Counsell, Elspeth Hanson, Gay-Yee Westerhoff</p>
                         <p> Nationality : UK & Australia</p>
-                        <p> Genre's :  Classical Crossover, Synth-Pop, Electronica</p>
+                        <p> Genre's : Classical Crossover, Synth-Pop, Electronica</p>
                         <a href="bond.html" class="btn btn-primary">Career</a>
                     </div>
                 </div>
@@ -128,6 +128,26 @@
             </div>
         </div>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            }
+            else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
