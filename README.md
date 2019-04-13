@@ -45,7 +45,7 @@ If possible to add more artists to the website.  Further development to include 
 
 ### Deployment
 
-Website was coded in Cloud 9 IDE, a local GIT directory was used for version control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at:https: //ammcl.github.io/milestone-1/
+Website was coded in Cloud 9 IDE, a local GIT directory was used for version control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at : https://ammcl.github.io/milestone-1/
 
 ### Testing
 
@@ -69,7 +69,7 @@ http://www.metrolyrics.com/bond-lyrics.html
 
 ### Other Sources
 
-Collins English Dictionary. Copyright © HarperCollins Publishers https://www.collinsdictionary.com/dictionary/english/classical-music 23/03/2019
+Collins English Dictionary. Copyright ï¿½ HarperCollins Publishers https://www.collinsdictionary.com/dictionary/english/classical-music 23/03/2019
 https://en.wikipedia.org/wiki/Andrea_Bocelli_discography 24/03/2019
 https://en.wikipedia.org/wiki/Bond_(band) 02/04/2019
 https://en.wikipedia.org/wiki/Charlotte_Church#Discography 02/04/2019
