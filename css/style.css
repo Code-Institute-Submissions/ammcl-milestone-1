@@ -62,6 +62,9 @@
     font-weight: bold;
 }
 
+.navbar .nav-item {
+    color: #000 !important;
+}
 
 /* Jumbotron */
 
@@ -234,7 +237,13 @@ header {
     padding: 0 15px 15px;
     float: none;
 }
-/* Career History */
+
+.container .container-fluid .row {
+    margin: 0;
+    padding:20;
+}
+
+/* Bio History */
 
 
 .timeline-item {
@@ -336,6 +345,28 @@ header {
     margin-top: 7px;
     margin-right: 10px;
 }
+
+/* Contact Page*/
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e67e22;
+}
+
 /*Footer Info*/
 
 #footer-details {
