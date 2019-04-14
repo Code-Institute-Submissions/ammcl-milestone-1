@@ -52,6 +52,7 @@ Website was coded in Cloud 9 IDE, a local GIT directory was used for version con
 Each page was tested locally and on GITHUB pages using Chrome developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop. All links were tested. 
 
 Assistance was also sought from friends and family in relation the overall user experience of the website.  I also requested reviews from my Code Institute peers where they gave me invaluable advice.
+Before final review was held with mentor all pages were ran through a html validator tool located here https://validator.w3.org, some errors were discovered and corrected.
 
 ### Work based on other code
 
